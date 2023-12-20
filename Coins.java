@@ -11,7 +11,7 @@ public class Coins {
 
 		int cent = a - (quar * 25);
 
-		System.out.println("Use " + quar + " qaurters and " + cent + " cents" );
+		System.out.println("Use " + quar + " quarters and " + cent + " cents" );
 
 	}
 }
