@@ -5,7 +5,6 @@
 public class GenThree {
 	public static void main(String[] args) {
 
-		//double a = Double.parseDouble(args[0]);	int aint = (int)(a * 10); System.out.println(aint);
 		
 		int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
@@ -25,8 +24,6 @@ public class GenThree {
 		int minT = Math.min(r1, Math.min(r2, r3));
 
 		System.out.println("The minimal generated number was " + minT);
-		
-
 
 	}
 }
